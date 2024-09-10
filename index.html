@@ -1,0 +1,30 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 30px;
+    }
+    body > div {
+      height: 350px;
+      color: white;
+      background-color: #232323;
+      display: grid;
+      place-items: center;
+    }
+  </style>
+  <body>
+    <div id="box1">Click Me</div>
+    <div id="box2">Click Me</div>
+    <div id="box3">Click Me</div>
+    <script src="click.js"></script>
+  </body>
+</html>
+
+
+<!-- onclick="document.getElementById('box').style.backgroundColor = '#' + Math.random().toString(16).substr(-6);"  -->
